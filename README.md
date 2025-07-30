@@ -41,6 +41,10 @@ Use Airflow to kickstart the Python extract script to Load data into GCS > cloud
 
 ## Notes
 
+1. Languages Field is of string type, handle this is UDF to extract and Schema with REPEATED type.
+<img width="815" height="217" alt="image" src="https://github.com/user-attachments/assets/60f23fc5-8d46-4b88-8b39-7d4c7490f2db" />
+
+
 
 
 
