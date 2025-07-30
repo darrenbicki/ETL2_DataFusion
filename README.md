@@ -1,0 +1,52 @@
+# ETL Project with Data Flow, Airflow, Cloud Function and BigQuery
+
+
+
+This repository contains code and configuration files for an ETL project that extracts data from an API — the Independent Country API, which lists all independent countries along with their capitals and languages. The data is loaded into GCS, which triggers a Dataflow job via a Cloud Function to load the data into BigQuery, and is finally visualized in Looker.
+
+
+## Overview
+The project aims to perform the following tasks:
+
+Data Extraction: Extract data using python from the Independet country API and load to a GCS bucket.
+Job Trigger : Once the CSV land in GCS bucket , trigger a dataflow job using a Cloud Function.
+Data Loading: The Data Flow jpb loads the data into Biquery and is finally visualized in Looker.
+Orchestration: Kick start the entitre flow using Apache Airflow.
+
+
+## Architecture
+![ETL with Data Flow](https://github.com/user-attachments/assets/e59d3d7d-230a-40b6-829c-16bd234da655)
+
+
+
+## System Design
+
+### Iteration 1
+
+1. Begin by locating the data end point of independent country - use a python script to get data from this API, clean the data and load in GCS bucket as a CSV file
+2. Create a data flow job to load the data into Big query
+3. Create a dashboard in Looker to visulaise the data for insights
+
+Do the above and trigger manully to test.
+
+### Iteration 2
+
+Create a cloud Function to trigger the dataflow job once a CSV is extracted into GCS
+
+### Iteration 3
+
+Create Cloud Compuser instance , setting up the groundwork for orchestarction with AirFlow
+Use Airflow to kickstart the Python extract script to Load data into GCS > cloud function to trigger Dataflow job > This job to load data into BigQuery > visulaise data in Looker.
+
+
+## Notes
+
+
+
+
+
+
+
+
+
+
