@@ -45,12 +45,13 @@ Use Airflow to kickstart the Python extract script to Load data into GCS > cloud
 <img width="815" height="217" alt="image" src="https://github.com/user-attachments/assets/60f23fc5-8d46-4b88-8b39-7d4c7490f2db" />
 
 ## Apendix 
-1. Sample data from API https://github.com/darrenbicki/ETL2_DataFusion/blob/main/independent_countries.csv
-2. Python script to fetch data from API and load to GCS https://github.com/darrenbicki/ETL2_DataFusion/blob/main/extract.py
-3. Cloud Function to trigger Data Flow job https://github.com/darrenbicki/ETL2_DataFusion/blob/main/cloudrun.py
-4. Bigquery Schema https://github.com/darrenbicki/ETL2_DataFusion/blob/main/countriesSchema.json
-5. UDF function to trasnform and handle data https://github.com/darrenbicki/ETL2_DataFusion/blob/main/countriesUDF.js
-6. AirFlow DAG https://github.com/darrenbicki/ETL2_DataFusion/blob/main/countries_DAG.py
+1. Sample data from API [independent_countries.csv](/independent_countries.csv)
+2. Python script to fetch data from API and load to GCS [extract.py](/extract.py)
+3. Cloud Function to trigger Data Flow job [cloudrun.py](cloudrun.py)
+4. Bigquery Schema [countriesSchema.json](countriesSchema.json)
+5. UDF function to trasnform and handle data [countriesUDF.js](countriesUDF.js)
+6. AirFlow DAG [countries_DAG.py](countries_DAG.py)
+
 
 
 
