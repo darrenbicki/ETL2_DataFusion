@@ -1,0 +1,7 @@
+{
+  "BigQuery Schema": [
+    { "name": "country_name", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "capital", "type": "STRING", "mode": "NULLABLE" },
+    { "name": "languages", "type": "STRING", "mode": "REPEATED" }
+  ]
+}
