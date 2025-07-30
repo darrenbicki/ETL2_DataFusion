@@ -43,6 +43,9 @@ Use Airflow to kickstart the Python extract script to Load data into GCS > cloud
 
 1. Languages Field is of string type, handle this is UDF to extract and Schema with REPEATED type.
 <img width="815" height="217" alt="image" src="https://github.com/user-attachments/assets/60f23fc5-8d46-4b88-8b39-7d4c7490f2db" />
+2. Mention Entry point to cloud function
+<img width="1073" height="216" alt="image" src="https://github.com/user-attachments/assets/83d1b32a-6b4c-44ee-a7c1-1fa8708eefb5" />
+
 
 ## Apendix 
 1. Sample data from API [independent_countries.csv](/independent_countries.csv)
