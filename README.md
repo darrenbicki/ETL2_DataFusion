@@ -50,7 +50,7 @@ Use Airflow to kickstart the Python extract script to Load data into GCS > cloud
 ## Apendix 
 1. Sample data from API [independent_countries.csv](/independent_countries.csv)
 2. Python script to fetch data from API and load to GCS [extract.py](/extract.py)
-3. Cloud Function to trigger Data Flow job [cloudrun.py](cloudrun)
+3. Cloud Function scripts to trigger Data Flow job [cloudrun](cloudrun)
 4. Bigquery Schema [countriesSchema.json](countriesSchema.json)
 5. UDF function to trasnform and handle data [countriesUDF.js](countriesUDF.js)
 6. AirFlow DAG [countries_DAG.py](countries_DAG.py)
